@@ -2,5 +2,5 @@
 
 echo "
 default_process_types:
-  web: $1/tiny $PORT
+  web: /home/vcap/app/tiny $PORT
 "
