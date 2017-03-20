@@ -2,5 +2,5 @@
 
 echo "
 default_process_types:
-  web: ./tiny $PORT
+  web: $1/tiny $PORT
 "
