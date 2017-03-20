@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "
+default_process_types:
+  web: ./tiny $PORT
+"
