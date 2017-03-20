@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
 #get to the right directory
-export ROOT_DIR=$(cd $(dirname $0); cd ..; pwd)
+cd $(dirname $0); cd..;
+export ROOT_DIR=$(pwd)
 make
