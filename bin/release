@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-ROOT_DIR=$(cd $(dirname $0); cd ..; pwd)
-
 echo "
 default_process_types:
-  web: $ROOT_DIR/tiny $PORT
+  web: $1/tiny $PORT
 "
