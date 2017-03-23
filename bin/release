@@ -2,5 +2,5 @@
 
 echo "
 default_process_types:
-  web: ./start.sh $PORT
+  web: $HOME/app/start.sh $PORT
 "
