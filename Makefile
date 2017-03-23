@@ -6,7 +6,7 @@ CFLAGS = -Wall -O2
 all: tiny
 
 tiny: tiny.c
-	$(CC) $(CFLAGS) -o $(HOME)/tiny tiny.c $(LIB)
+	$(CC) $(CFLAGS) -o $(BUILD_DIR)/tiny tiny.c $(LIB)
 
 clean:
 	rm -f *.o tiny *~
