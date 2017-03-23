@@ -2,5 +2,4 @@
 
 #get to the right directory
 cd $(dirname $0); cd ..
-export BUILD_DIR=$APP_ROOT
 make
