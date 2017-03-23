@@ -5,3 +5,4 @@ cd $(dirname $0); cd ..
 export BUILD_DIR=$1
 make
 chmod +x $BUILD_DIR/tiny
+mv start.sh $BUILD_DIR
