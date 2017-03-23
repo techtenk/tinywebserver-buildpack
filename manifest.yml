@@ -1,4 +1,18 @@
 ---
-applications:
-- name: timtestcustombuildpack
-  memory: 64M
+language: tinywebserver
+
+exclude_files:
+  - .git/
+  - .gitignore
+  - .gitmodules
+  - .rspec
+  - cf_spec/
+  - log/
+  - test/
+  - buildpack-packager/
+  - binary_buildpack-*v*.zip
+
+url_to_dependency_map: []
+
+dependencies: []
+
